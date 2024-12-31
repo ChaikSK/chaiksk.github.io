@@ -4,10 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kei Kei Pu Pu</title>
+    <link rel="icon" type="image/x-icon" href="src/favicon/snoopy_white.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
+    <style>
+        body{
+            max-width: 1180px;
+            width: 98%;
+            margin: 100px auto;
+            text-align: left;
+            background-color: #e25d46;
+        }
+        h1 { 
+            font-family: Duo-Licht; 
+            letter-spacing: 0.1em;
+            font-weight: 900;
+            font-size: 3em;
+        }
+        P { 
+            font-family: Duo-Licht; 
+            letter-spacing: 0.1em;
+            font-weight: 900;
+            font-size: 1.5em;
+        }
+        @font-face {
+            font-family: 'Eracake';
+            src: url(src/font/Eracake.ttf);
+        }
+        @font-face {
+            font-family: 'Eracake';
+            src: url(src/font/Eracake.ttf);
+            font-family: 'Duo-Dunkel';
+        }
+        @font-face {
+            font-family: 'Duo-Licht';
+            src: url(src/font/Duo-Licht.ttf);
+        }
+
+        div {
+            pointer-events: none;
+        }
+        *{
+            margin: 0;
+        }
+
+        section{
+            height: auto;
+            width: 100%;
+            opacity: 0.4;
+            background: transparent;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Hello, I'm Kei Kei Pu Pu.</h1>
+    <h1>Hello, I'm Kei Kei Pu Pu</h1><br />
+    <div style="width:50%;height:0;padding-bottom:28%;position:relative;"><iframe src="https://giphy.com/embed/1kymxb4RCuOwE" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+    <p>Wishing everyone HAPPY NEW YEAR 2025</p> <br />
+    <section></section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="jquery.fireworks.js"></script>
+    <script>
+        $('section').fireworks({ 
+            sound: true, // sound effect
+            opacity: 0.6, 
+            width: '100%', 
+            height: '100%',
+        });
+    </script>
     
 </body>
 </html>
